@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lecture PDF</title>
+  <style>
+    html, body { margin: 0; height: 100%; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .viewer { width: 100%; height: 100vh; border: 0; display: block; }
+    .fallback { padding: 24px; }
+  </style>
+</head>
+<body>
+  <object class="viewer" data="lecture.pdf" type="application/pdf">
+    <div class="fallback">
+      <p>PDF를 바로 표시할 수 없는 브라우저입니다.</p>
+      <p><a href="lecture.pdf">lecture.pdf 열기</a></p>
+    </div>
+  </object>
+</body>
+</html>
